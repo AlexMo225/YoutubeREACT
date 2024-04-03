@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "youtube_clone",
+    "slug": "youtube_clone",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "youtube_clone"
+}
