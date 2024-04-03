@@ -18,19 +18,19 @@ const NavigationBar = ({ onHomePress, onSignUpPress }) => {
         <Text style={styles.navText}>Inscription</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity  style={styles.navItem}>
+      <TouchableOpacity onPress={onSignUpPress} style={styles.navItem}>
         <Icon name="film" size={24} color="grey" />
         <Text style={styles.navText}>Shorts</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity  style={styles.navItem}>
+      <TouchableOpacity onPress={onSignUpPress} style={styles.navItem}>
         <Icon name="youtube-play" size={24} color="red" />
         <Text style={styles.navText}>Abonnements</Text>
       </TouchableOpacity>
 
       <TouchableOpacity onPress={onSignUpPress} style={styles.navItem}>
         <Icon name="user" size={24} color="grey" />
-        <Text style={styles.navText}>Se Connecter</Text>
+        <Text style={styles.navText}>Vous</Text>
       </TouchableOpacity>
     </View>
   );
